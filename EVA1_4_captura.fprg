@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_4_captura"/>
+        <attribute name="authors" value="bsionte"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-08 06:49:57 p. m."/>
+        <attribute name="created" value="YnNpb250ZTtERVNLVE9QLUE0SUI4NlE7MjAyNi0wOS0wODswNjowNTo0NyBwLiBtLjszMjY3"/>
+        <attribute name="edited" value="YnNpb250ZTtERVNLVE9QLUE0SUI4NlE7MjAyNi0wOS0wODswNjo0OTo1NyBwLiBtLjsxOzMzODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <output expression="&quot;Captura el nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="nombre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
